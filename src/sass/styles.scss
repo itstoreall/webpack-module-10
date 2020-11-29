@@ -16,5 +16,17 @@ body {
   /*
    * CSS image reference example.
    */
-  background-image: url('./images/bg-pattern.png');
+  background-image: url('../images/bg-pattern.png');
+}
+
+// Modal
+
+.modal {
+  padding: 1.8rem 2.16rem 0.9rem;
+  width: 550px;
+  max-width: 1300px;
+  background: #fff;
+  border-radius: 4px;
+  text-align: center;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
 }
