@@ -1,0 +1,17 @@
+{{#each this}}
+<li class="gallery__item">
+   <h2>{{name}}</h2>
+   <img class="gallery__flag" src="{{flag}}" alt="Флаг {{name}}" <p>Столица: {{capital}}</p>
+   <p>Валюта: {{currenty}}</p>
+   <p>Язык: {{language}}</p>
+   <p>Население: {{population}} человек</p>
+   <p>Столица: {{capital}}</p>
+   {{#if infected}}
+   <p>Есть вирус!!!</p>
+   {{/if}}
+
+   {{#unless infected}}
+   <p>Вируса нет!!!</p>
+   {{/unless}}
+</li>
+{{/each}}
