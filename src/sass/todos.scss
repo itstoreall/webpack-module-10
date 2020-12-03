@@ -1,0 +1,28 @@
+// Form
+
+.form-group * {
+  display: block;
+  margin: 10px;
+}
+
+.form-control {
+  width: 200px;
+  height: 50px;
+}
+
+.btn-primary {
+  width: 200px;
+  height: 50px;
+  margin: 10px;
+  background-color: skyblue;
+  border: none;
+}
+
+.list-group-item {
+  position: relative;
+  display: block;
+  padding: 20px;
+  margin: 10px;
+  text-decoration: none;
+  background-color: lightgrey;
+}
